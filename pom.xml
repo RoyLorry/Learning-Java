@@ -29,9 +29,27 @@
         签）， 不鼓励使用纯文本描述。如果你需要修改产生的web站点的索引页面，你应该修改你自己的索引页文件，而不是调整这里的文档。 -->
     <description>A maven project to study building Java program.</description>
 
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+    <!--构建项目需要的信息 -->
+    <build>
+        <!--使用的插件列表 -->
+        <plugins>
+            <!--plugin元素包含描述插件所需要的信息。 -->
+            <plugin>
+                <!--插件在仓库里的group ID -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <!--插件在仓库里的artifact ID -->
+                <artifactId>maven-compiler-plugin</artifactId>
+                <!--被使用的插件的版本（或版本范围） -->
+                <version>3.6.1</version>
+                <!--作为DOM对象的配置 -->
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <!--项目开发者列表 -->
     <developers>
