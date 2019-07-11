@@ -1,4 +1,4 @@
-package com.learning.java.basictype;
+package com.java.learning.basictype;
 
 public class JavaBasicDataType {
     public static void main(String[] args) {  
