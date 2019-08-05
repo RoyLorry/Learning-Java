@@ -2,6 +2,9 @@ package com.java.learning.basictype;
 
 public class IncrementAndDecrement {
 
+    class A {}
+    class B {}
+
 
     public static void method1() {
         int i = 1;
