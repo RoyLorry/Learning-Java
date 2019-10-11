@@ -35,7 +35,7 @@ public class MyList {
 
     public void delete(List list, int fromIndex, int toIndex) {
         // 最优雅的区间删除方式
-        list.subList(fromIndex, toIndex).clear();;
+        list.subList(fromIndex, toIndex).clear();
         // 或者通过倒序遍历进行remove操作
     }
 
