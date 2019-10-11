@@ -1,6 +1,6 @@
-package com.java.learning.basictype;
+package com.java.learning.primitivetype;
 
-public class JavaBasicDataType {
+public class JavaPrimitiveType {
     public static void main(String[] args) {  
         // byte  
         System.out.println("基本类型：byte 二进制位数：" + Byte.SIZE);  

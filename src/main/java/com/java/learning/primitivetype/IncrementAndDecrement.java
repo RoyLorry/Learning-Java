@@ -1,4 +1,4 @@
-package com.java.learning.basictype;
+package com.java.learning.primitivetype;
 
 public class IncrementAndDecrement {
 
